@@ -1,0 +1,33 @@
+button {
+    background-color: var(--bs-primary);
+    padding: 10px;
+    width: 30vh;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #6125e4;
+    transition-duration: 0.3s;
+}
+
+.tips {
+    margin-top: 0px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+.content h1{
+    font-size: var(--font-size);
+    font-family: RobotoBold;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+
+}

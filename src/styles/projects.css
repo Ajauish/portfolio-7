@@ -1,0 +1,42 @@
+.card-body {
+    background-color: #111316;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.category {
+    font-size: 1rem;
+    background-color: var(--bs-nav-color);
+}
+
+.card-img-top {
+    min-height: 100%;
+}
+
+.card {
+    margin: 1vh;
+}
+
+.link a {
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+
+.card-header {
+    color: aliceblue;
+    background-color: var(--bs-nav-color);
+}
+
+.card-header {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+
+@media only screen and (max-width: 900px) { 
+
+    .body {
+        padding: 2vh 2vh;
+    }
+
+}

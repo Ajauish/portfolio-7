@@ -1,0 +1,45 @@
+let express = require('express');
+let app = express();
+
+app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/src'));
+
+app.get('/', (req, res) => {
+  res.render('index');
+});
+
+app.get('/projects', (req, res) => {
+  res.render('pages/projects');
+});
+
+
+app.get('/blog', (req, res) => {
+  res.render('pages/blog');
+});
+
+
+
+app.get('/contact', (req, res) => {
+  res.render('pages/contact');
+});
+
+
+
+app.get('/experiences', (req, res) => {
+  res.render('pages/experiences');
+});
+
+
+
+app.get('/feedbacks', (req, res) => {
+  res.render('pages/feedbacks');
+});
+
+
+app.get('/tips', (req, res) => {
+  res.render('pages/tips');
+});
+
+
+
+app.listen(8080, () => console.log('Example app listening on port 8080!'));

@@ -1,0 +1,48 @@
+:root {
+    --font-size: 6vh;
+    --sm-size: 2vh;
+}
+
+
+.intro h1{
+    font-size: var(--font-size);
+    font-family: RobotoBold;
+    margin-top: 30%;
+}
+
+.intro h3{
+    font-size: var(--sm-size);
+    color: var(--bs-primary);
+    opacity: 100%;
+}
+
+.code-container {
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: #0d0f11;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid var(--bs-border);
+    border-radius: 5px;
+}
+
+.operation {
+    color: rgb(227 125 178);
+}
+
+.value {
+    color:rgb(104 199 211);
+}
+
+.purple {
+    color: var(--bs-primary);
+}
+
+.string {
+    color: rgb(221 236 152);
+}
+
+.int {
+    color: rgb(236, 209, 152);
+}

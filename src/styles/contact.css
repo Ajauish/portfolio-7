@@ -1,0 +1,61 @@
+:root {
+    --font-size: 6vh;
+    --sm-size: 2vh;
+}
+
+.contact-form form{
+    background-color: var(--bs-nav-color);
+    text-align: center;
+    padding: 4vh;
+    border-radius: 5px;
+    border: 1px solid var(--bs-border);
+    margin-top: 5%;
+}
+
+.contact-form input {
+    border: none;
+    background-color: var(--bs-background-secondary);
+    border-radius: 5px;
+    height: 3rem;
+    width: 50%;
+    border: 1px solid var(--bs-border);
+
+}
+
+.contact-form label {
+    opacity: 80%;
+    margin-bottom: 1vh;
+
+
+}
+
+
+.contact-form input {
+
+    margin-bottom: 5vh;
+
+}
+
+
+.contact-form-text {
+    font-size: var(--font-size);
+    font-family: RobotoBold;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.contact-form-text-description {
+    font-size: var(--sm-size);
+    color: var(--bs-primary);
+    opacity: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) { 
+
+    .body {
+        padding: 2vh 2vh;
+    }
+
+}

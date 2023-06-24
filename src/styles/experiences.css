@@ -1,0 +1,47 @@
+.card-body {
+    background-color: #111316;
+    border-radius: 5px;
+
+}
+
+.category {
+    font-size: 1rem;
+    background-color: var(--bs-nav-color);
+}
+
+
+.card-group {
+    padding: 1vh;
+}
+
+.card {
+    margin: 1vh;
+    border-radius: 5px;
+}
+
+.card-header {
+    color: aliceblue;
+    background-color: var(--bs-nav-color);
+}
+
+.card-header {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .body {
+        padding: 2vh 2vh;
+    }
+
+}
